@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  height: 100vh;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 100vh;
+  background-color: #fff;
+  padding: 44px;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  width: 125%;
+}
+
+.nav .btn {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  margin-right: 16px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  height: 100vh;
+}
+
+.main-content-left {
+  flex: 2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.main-content-left h1 {
+  color: #333;
+  font-size: 30px;
+  padding: 60px 0 12px 0;
+}
+
+.info {
+  margin: 16px 0 26px 0;
+}
+
+.info span {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.green {
+  color: green;
+}
+
+.orange {
+  color: orangered;
+}
+
+.blue {
+  color: darkblue;
+}
+
+.main-content-left .search-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.main-content-left .search-button button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  padding: 16px;
+}
+
+.main-content-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-right img {
+  flex: 1;
+  width: 100%;
+  flex: 1;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.some-img {
+  width: 100%;
+}
+
+.sub-content {
+  display: flex;
+}
+
+.sub-content div {
+  margin-right: 16px;
+  border: 2px solid rgb(186, 186, 186);
+  border-radius: 7px;
+  padding: 15px;
+}
+
+.book {
+  background-color: darkblue;
+  color: white;
+}
+
+.ticket-container {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.ticket-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ticket-item {
+  display: flex;
+  align-items: center;
+}
+
+.ticket-item i {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #ff5733;
+}
+
+.ticket-item div {
+  display: flex;
+  flex-direction: column;
+}
+
+.location,
+.date,
+.class,
+.seat-type {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.station-code,
+.day,
+.tier {
+  color: #6c757d;
+}
+
+.swap-icon i {
+  font-size: 24px;
+  color: black;
+}
+
+.some-content {
+  margin-bottom: 60px;
+}
+
+.arrow-right {
+  color: white;
+}
+
+#login {
+  background-color: orange;
+  color: white;
+}
+
+.image1 {
+  width: 100%;
+  height: 50vh;
+}
+
+.image2 {
+  width: 100%;
+  height: 50vh;
+}
